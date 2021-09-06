@@ -223,6 +223,13 @@ console.log( out );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/utils/deep-get`][@stdlib/utils/deep-get]: get a nested property value.
+-   [`@stdlib/utils/deep-set`][@stdlib/utils/deep-set]: set a nested property value.
+
 </section>
 
 <!-- /.related -->
@@ -284,9 +291,15 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/utils-deep-pluck/main/LICENSE
 
+[@stdlib/utils/copy]: https://github.com/stdlib-js/utils-copy
+
+<!-- <related-links> -->
+
 [@stdlib/utils/deep-get]: https://github.com/stdlib-js/utils-deep-get
 
-[@stdlib/utils/copy]: https://github.com/stdlib-js/utils-copy
+[@stdlib/utils/deep-set]: https://github.com/stdlib-js/utils-deep-set
+
+<!-- </related-links> -->
 
 </section>
 
