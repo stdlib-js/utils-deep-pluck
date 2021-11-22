@@ -20,7 +20,7 @@ limitations under the License.
 
 # Deep Pluck
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Extract a nested property value from each element of an object array.
 
@@ -227,8 +227,8 @@ console.log( out );
 
 ## See Also
 
--   [`@stdlib/utils/deep-get`][@stdlib/utils/deep-get]: get a nested property value.
--   [`@stdlib/utils/deep-set`][@stdlib/utils/deep-set]: set a nested property value.
+-   <span class="package-name">[`@stdlib/utils/deep-get`][@stdlib/utils/deep-get]</span><span class="delimiter">: </span><span class="description">get a nested property value.</span>
+-   <span class="package-name">[`@stdlib/utils/deep-set`][@stdlib/utils/deep-set]</span><span class="delimiter">: </span><span class="description">set a nested property value.</span>
 
 </section>
 
@@ -279,8 +279,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/utils-deep-pluck/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/utils-deep-pluck?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/utils-deep-pluck.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/utils-deep-pluck/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
