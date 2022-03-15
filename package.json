@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-deep-pluck",
-  "version": "0.0.7",
+  "version": "0.0.0",
   "description": "Extract a nested property value from each element of an object array.",
   "license": "Apache-2.0",
   "author": {
@@ -42,6 +42,7 @@
     "@stdlib/assert-is-boolean": "^0.0.x",
     "@stdlib/assert-is-plain-object": "^0.0.x",
     "@stdlib/assert-is-string": "^0.0.x",
+    "@stdlib/string-format": "^0.0.x",
     "@stdlib/utils-copy": "^0.0.x",
     "@stdlib/utils-deep-get": "^0.0.x"
   },
