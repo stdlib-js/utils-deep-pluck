@@ -41,14 +41,30 @@ limitations under the License.
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/utils-deep-pluck
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import deepPluck from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-deep-pluck@esm/index.mjs';
+var deepPluck = require( '@stdlib/utils-deep-pluck' );
 ```
 
 #### deepPluck( arr, path\[, options] )
@@ -161,7 +177,7 @@ var out = deepPluck( arr, 'a|b|c', { 'sep': '|' } );
     <!-- eslint-disable object-curly-newline, object-curly-spacing -->
 
     ```javascript
-    import copy from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-copy@esm/index.mjs';
+    var copy = require( '@stdlib/utils-copy' );
 
     var arr = [
         { 'a': { 'b': { 'c': 2 } } },
@@ -188,15 +204,10 @@ var out = deepPluck( arr, 'a|b|c', { 'sep': '|' } );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@esm/index.mjs';
-import deepPluck from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-deep-pluck@esm/index.mjs';
+```javascript
+var randu = require( '@stdlib/random-base-randu' );
+var round = require( '@stdlib/math-base-special-round' );
+var deepPluck = require( '@stdlib/utils-deep-pluck' );
 
 var arr;
 var out;
@@ -221,10 +232,6 @@ for ( i = 0; i < arr.length; i++ ) {
 // Pluck the deeply nested values:
 out = deepPluck( arr, 'a.b.c.d' );
 console.log( out );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -255,7 +262,7 @@ console.log( out );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -315,13 +322,13 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/utils-deep-pluck/main/LICENSE
 
-[@stdlib/utils/copy]: https://github.com/stdlib-js/utils-copy/tree/esm
+[@stdlib/utils/copy]: https://github.com/stdlib-js/utils-copy
 
 <!-- <related-links> -->
 
-[@stdlib/utils/deep-get]: https://github.com/stdlib-js/utils-deep-get/tree/esm
+[@stdlib/utils/deep-get]: https://github.com/stdlib-js/utils-deep-get
 
-[@stdlib/utils/deep-set]: https://github.com/stdlib-js/utils-deep-set/tree/esm
+[@stdlib/utils/deep-set]: https://github.com/stdlib-js/utils-deep-set
 
 <!-- </related-links> -->
 
