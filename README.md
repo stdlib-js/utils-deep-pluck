@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import deepPluck from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-deep-pluck@esm/index.mjs';
+import deepPluck from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-deep-pluck@v0.2.0-esm/index.mjs';
 ```
 
 #### deepPluck( arr, path\[, options] )
@@ -196,7 +196,7 @@ var out = deepPluck( arr, 'a|b|c', { 'sep': '|' } );
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@esm/index.mjs';
-import deepPluck from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-deep-pluck@esm/index.mjs';
+import deepPluck from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-deep-pluck@v0.2.0-esm/index.mjs';
 
 var arr;
 var out;
