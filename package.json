@@ -42,8 +42,8 @@
     "@stdlib/assert-is-boolean": "^0.2.2",
     "@stdlib/assert-is-plain-object": "^0.2.2",
     "@stdlib/assert-is-string": "^0.2.2",
+    "@stdlib/object-deep-get": "github:stdlib-js/object-deep-get#main",
     "@stdlib/string-format": "^0.2.2",
-    "@stdlib/utils-deep-get": "^0.2.2",
     "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
