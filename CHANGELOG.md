@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-01-10)
+## Unreleased (2026-01-14)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`fb171e3`](https://github.com/stdlib-js/stdlib/commit/fb171e313f8973bd4cd7d873f89f8b248b2cf14e) - **refactor:** update paths _(by Neeraj Pathak)_
 -   [`dfee33b`](https://github.com/stdlib-js/stdlib/commit/dfee33b1f8c6ae3b28465f81a0dafbd50366f9f0) - **refactor:** update paths _(by Neeraj Pathak)_
 -   [`1acd7fc`](https://github.com/stdlib-js/stdlib/commit/1acd7fc7114fcbef1b80ab506f6f47d3532d6ea8) - **docs:** fix example code _(by Philipp Burckhardt)_
 -   [`7add020`](https://github.com/stdlib-js/stdlib/commit/7add0201c13e56a0381926ccfd4073c84eaf2ed4) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
